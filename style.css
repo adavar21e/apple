@@ -1,0 +1,145 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.main {
+    display: grid;
+    grid-template-rows: 538px 1fr;
+    grid-template-columns: repeat(4, 1fr);
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.full {
+    grid-column: span 4;
+    background-image: url("assets/your_verse_hero.jpg");
+    background-repeat: no-repeat;
+    background-position: 0 100%;
+    margin-bottom: 3px;
+    text-align: center;
+}
+
+.container {
+    display: inline-flex;
+    padding-top: 5em;
+    padding-bottom: 3em;
+}
+
+.box-text {
+    color: white;
+    margin: auto 0;
+    font-size: 14px;
+    padding-top: 10px;
+}
+
+.apple {
+    max-width: 26.6px;
+    max-height: 26.6px;
+    padding-top: 5px;
+}
+
+.box2,
+.box3,
+.box4,
+.box5,
+.box6,
+.box7,
+.box8 {
+    background-image: linear-gradient(rgb(112, 112, 112) 50%, rgb(131, 131, 131) 50%);
+    width: 105px;
+    height: 36px;
+    border-right: 1px solid black;
+}
+
+.box1 {
+    border-right: 1px solid black;
+    border-radius: 4px 0 0 4px;
+    background-image: linear-gradient(rgb(112, 112, 112) 50%, rgb(131, 131, 131) 50%);
+    width: 105px;
+    height: 36px;
+}
+
+.box9 {
+    width: 132px;
+    background-image: linear-gradient(rgb(112, 112, 112) 50%, rgb(131, 131, 131) 50%);
+    height: 36px;
+    border-radius: 0 4px 4px 0;
+}
+
+input {
+    width: 100px;
+    height: 20px;
+    background: transparent;
+    border-radius: 10px;
+    border-top: 1px solid rgb(80, 80, 80);
+    border-bottom: 1px solid rgb(144, 144, 144);
+    border-left: none;
+    border-right: none;
+    margin-top: 8px;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 300%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 100;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+    font-size: 150%;
+    line-height: 1.5;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 100;
+    padding-top: 20px;
+}
+
+.watch {
+    text-align: center;
+    color: white;
+    font-size: 150%;
+    line-height: 2;
+    padding-top: 10px;
+}
+
+.promo1 {
+    background-image: url("assets/promo_iphone5s.jpg");
+    background-repeat: no-repeat;
+    height: 200px;
+    margin-right: 1.5px;
+}
+
+.promo2 {
+    background-image: url("assets/promo_iphone5c.jpg");
+    background-repeat: no-repeat;
+    margin: 0 1.5px;
+}
+
+.promo3 {
+    background-image: url("assets/promo_30_years.jpg");
+    background-repeat: no-repeat;
+    margin: 0 1.5px;
+}
+
+.promo4 {
+    background-image: url("assets/promo_supplier_responsibility.jpg");
+    background-repeat: no-repeat;
+    margin-left: 1.5px;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 1000px;
+    grid-gap: 15px;
+    margin: 1em auto;
+}
+
+p {
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+}
